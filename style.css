@@ -1,0 +1,74 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+  background-color: aqua;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.card
+{
+     margin: 10px auto;
+     max-width: 346px;
+     text-align: center;
+     box-shadow: 0 4px 8px 0 rgb(100, 164, 5);
+     font-size: 0;
+     
+}
+
+.card:hover
+{
+    box-shadow: 0 10px 20px 0 green ;
+}
+
+.cal-head #result
+{
+    width:330px;
+    height:50px;
+    text-align: right;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0 5px;
+    letter-spacing: 3px;
+    
+}
+
+.btn
+{
+    width:86px;
+    height:40px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: aquamarine;
+}
+
+ 
+
+.btn-style
+{
+    width:86px;
+    height:40px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(83, 83, 227);
+}
+
+.btn:hover
+{
+    color:yellow;
+    background-color: red;
+}
+
+.btn-style:hover
+{
+    color:yellow;
+    background-color: red;
+}
